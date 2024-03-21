@@ -11,7 +11,7 @@ openai.api_key = os.getenv('OPENAI_API_KEY')
 
 
 # LiveFresh-Logo
-logo_path = 'logo livefresh Kopie.png'
+logo_path = 'logo-liveFresh.png'
 
 # Titel und Logo der Streamlit Seite/App anzeigen
 st.image(logo_path, width=200)  # Logo-Größe anpassen
