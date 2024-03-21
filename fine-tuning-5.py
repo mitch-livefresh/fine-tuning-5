@@ -9,6 +9,7 @@ load_dotenv()
 # API-Schlüssel aus der Umgebungsvariablen lesen
 openai.api_key = os.getenv('OPENAI_API_KEY')
 
+
 # LiveFresh-Logo
 logo_path = 'logo-liveFresh.png'
 
