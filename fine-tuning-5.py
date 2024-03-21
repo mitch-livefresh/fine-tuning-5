@@ -1,8 +1,14 @@
 import openai
 import streamlit as st
+from dotenv import load_dotenv
+import os
 
-# API-Schlüssel OpenAi API setzen
-openai.api_key = 'XYXYXYXYXYX'
+# Lade Umgebungsvariablen
+load_dotenv()
+
+# API-Schlüssel aus der Umgebungsvariablen lesen
+openai.api_key = os.getenv('OPENAI_API_KEY')
+
 
 # LiveFresh-Logo
 logo_path = 'logo livefresh Kopie.png'
