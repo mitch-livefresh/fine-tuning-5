@@ -9,7 +9,7 @@ load_dotenv()
 # API-Schlüssel aus der Umgebungsvariablen lesen
 # openai.api_key = os.getenv('OPENAI_API_KEY')
 
-# API-Schlüssel OpenAi API setzen
+# API-Schlüssel OpenAi API setzen TEST
 openai.api_key = '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'
 
 # LiveFresh-Logo
